@@ -1,0 +1,6 @@
+name: trigger
+on:[push]
+
+jobs:
+  call-workflow-2-in-local-repo:
+    uses: ./.github/workflows/manualworkflow.yml
