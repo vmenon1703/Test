@@ -5,8 +5,7 @@ on:
     inputs:
       environments:
         required: true
-        type: environment
-        description: "choose env"
+        type: string
         default: Dev01
     secrets:
       token:
